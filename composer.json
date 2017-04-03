@@ -4,7 +4,7 @@
   "version": "1.0.2",
   "homepage": "https://github.com/ZayconFoods/sentric",
   "license": "MIT",
-  "keywords": ["Sentric", "sentric", "Workforce", "workforce"],
+  "keywords": ["Sentric", "Workforce"],
   "require": {
     "php": ">=5.3",
     "guzzlehttp/guzzle": "~6.0"
@@ -26,5 +26,8 @@
     "psr-0": {
       "Sentric\\": "src/Workforce/"
     }
+  },
+  "config": {
+    "vendor-dir": "vendors"
   }
 }
