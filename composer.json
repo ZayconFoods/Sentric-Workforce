@@ -1,0 +1,30 @@
+{
+  "name": "sentric/workforce",
+  "description": "Connect your website with Sentric Workforce.",
+  "version": "1.0.2",
+  "homepage": "https://github.com/ZayconFoods/sentric",
+  "license": "MIT",
+  "keywords": ["Sentric", "sentric", "Workforce", "workforce"],
+  "require": {
+    "php": ">=5.3",
+    "guzzlehttp/guzzle": "~6.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.8.*",
+    "satooshi/php-coveralls": "dev-master"
+  },
+  "type": "library",
+  "authors": [
+    {
+      "name": "Tony DeStefano",
+      "email": "tony@zayconfresh.com",
+      "homepage": "https://www.zayconfresh.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-0": {
+      "Sentric\\": "src/Workforce/"
+    }
+  }
+}
